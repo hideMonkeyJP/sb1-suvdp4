@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HARUKIの高校生活</title>
+</head>
+<body>
+    <div id="game-container">
+        <h1>HARUKIの高校生活</h1>
+        <div id="scene-container">
+            <p id="date"></p>
+            <p id="scene-description"></p>
+            <img id="haruki-image" src="/haruki.jpg" alt="HARUKI" style="display: none; max-width: 200px; margin: 10px auto;">
+            <p id="character-dialogue"></p>
+            <div id="choices-container">
+                <button id="choice1"></button>
+                <button id="choice2"></button>
+            </div>
+        </div>
+        <div id="status-container">
+            <h2>ステータス</h2>
+            <p>佐藤美咲 好感度: <span id="misaki-affection">0</span></p>
+            <p>山田太郎 好感度: <span id="taro-affection">0</span></p>
+            <p>鈴木花子 好感度: <span id="hanako-affection">0</span></p>
+        </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html>
